@@ -1,0 +1,14 @@
+
+
+
+SELECT create_distributed_table(' citus."Tenants" ', 'Id');
+
+SELECT create_distributed_table(' citus."Users" ', 'TenantId');
+
+SELECT create_distributed_table(' citus."Surveys" ', 'TenantId');
+
+SELECT create_distributed_table('citus."Questions"  ', 'TenantId');
+
+SELECT create_distributed_table(' citus."SurveyContributors" ', 'TenantId');
+
+SELECT create_distributed_table(' citus."ContributorRequests" ', 'TenantId');

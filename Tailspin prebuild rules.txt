@@ -1,0 +1,13 @@
+To run the tailspin without gulp dependancy issue.
+1) Install npm gulp globally.
+2) Install gulp in the local folder.(npm install gulp)
+3) npm install gulp --save-dev. Run this command.
+
+
+If you have a library unresolved due to cdnjs, right click on libman.json then click on disable clients side packages.
+This should work:)
+
+Sources
+For gulp issues-https://coder-coder.com/install-gulp-globally-on-windows/#:~:text=To%20install%20Gulp%20locally%2C%20navigate,proceed%20to%20create%20your%20gulpfile.
+
+for cdnjs issues-https://stackoverflow.com/questions/73174587/webstatus-wont-compile-the-jquery3-4-1-library-could-not-be-resolved-by-the
